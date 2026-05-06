@@ -1,0 +1,29 @@
+.myst-fm-downloads-dropdown {
+  display: none !important;
+}
+
+#giscus-comments {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.giscus,
+.giscus-frame {
+  width: 100% !important;
+}
+
+#posts ~ .myst-grid .myst-card-header,
+#posts ~ * .myst-grid .myst-card-header {
+  padding: 0.5rem !important;
+  border-bottom: none !important;
+  background: transparent !important;
+}
+
+#posts ~ .myst-grid .myst-card-header img,
+#posts ~ * .myst-grid .myst-card-header img {
+  display: block;
+  width: 100%;
+  margin: 0 !important;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 4px;
+}
