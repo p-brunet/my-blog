@@ -47,7 +47,7 @@ site:
     folders: true
   actions:
     - title: RSS
-      url: https://opengeos.org/myst-blog-template/rss.xml
+      url: https://p-brunet.github.io/my-blog/rss.xml
   template: book-theme
   parts:
     primary_sidebar_footer: ''
