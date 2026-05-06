@@ -46,7 +46,7 @@ jobs:
       - name: Build HTML Assets
         # Remove BASE_URL if using a custom domain (CNAME)
         env:
-          BASE_URL: /${{ github.event.repository.name }}
+          BASE_URL: ''
         run: myst build --html
 
       - name: Generate RSS and Atom feeds
