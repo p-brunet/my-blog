@@ -1,7 +1,73 @@
+/* ─── Top navbar – fir green ─────────────────────────────────────────────── */
+header,
+header.navbar,
+nav.navbar,
+.navbar,
+.bd-header,
+.bd-header-article,
+.topbar,
+.navbar-header-container,
+.pst-header-article-overlay {
+  background-color: #1B4332 !important;
+}
+
+header a,
+nav.navbar a,
+.navbar a,
+.bd-header a,
+.topbar a {
+  color: #ffffff !important;
+}
+
+header a:hover,
+nav.navbar a:hover,
+.topbar a:hover {
+  color: #a8d5b5 !important;
+}
+
+/* ─── Logo sizing ────────────────────────────────────────────────────────── */
+img[alt="logo"],
+img[alt*="logo"],
+a[href="/"] img,
+.logo img,
+nav img:first-of-type {
+  height: 96px !important;
+  width: auto !important;
+  max-width: 96px !important;
+}
+
+/* ─── Hide downloads dropdown ────────────────────────────────────────────── */
 .myst-fm-downloads-dropdown {
   display: none !important;
 }
 
+/* ─── Stack badges ───────────────────────────────────────────────────────── */
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 2px 3px 2px 0;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.badge-python    { background-color: #3776AB; }
+.badge-duckdb    { background-color: #FFC906; color: #1a1a1a; }
+.badge-docker    { background-color: #2496ED; }
+.badge-sql       { background-color: #336791; }
+.badge-plotly    { background-color: #3F4F75; }
+.badge-airflow   { background-color: #017CEE; }
+.badge-iceberg   { background-color: #26A7DE; }
+.badge-ml        { background-color: #E05A00; }
+.badge-rasterio  { background-color: #4A7C59; }
+.badge-matplotlib{ background-color: #11557C; }
+.badge-gis       { background-color: #2E8B57; }
+
+/* ─── Giscus comments ────────────────────────────────────────────────────── */
 #giscus-comments {
   max-width: 100% !important;
   padding: 0 !important;
@@ -12,18 +78,16 @@
   width: 100% !important;
 }
 
-#posts ~ .myst-grid .myst-card-header,
-#posts ~ * .myst-grid .myst-card-header {
+/* ─── Card thumbnails — all pages ───────────────────────────────────────── */
+.myst-card-header {
   padding: 0.5rem !important;
   border-bottom: none !important;
   background: transparent !important;
 }
 
-#posts ~ .myst-grid .myst-card-header img,
-#posts ~ * .myst-grid .myst-card-header img {
+.myst-card-header img {
   display: block;
   width: 100%;
   margin: 0 !important;
-  border: 1px solid rgba(128, 128, 128, 0.3);
   border-radius: 4px;
 }

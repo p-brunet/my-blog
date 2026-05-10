@@ -1,21 +1,15 @@
 version: 1
 project:
-  title: My Blog
-  description: A blog about data science, open-source software, and teaching, powered by MyST Markdown.
-  # thumbnail: images/profile-thumbnail.webp
-  # authors:
-  #   - name: Jane Doe
-  #     email: jane.doe@example.com
-  #     orcid: 0000-0000-0000-0000
-  #     url: https://example.com
-  #     affiliations:
-  #       - Example University
+  title: p-brunet
+  description: Geospatial projects, maps and energy analysis by Paul Brunet.
   copyright: '2026'
   keywords:
-    - Blog
-    - Data Science
-    - Open-source Software
-  github: opengeos/myst-blog-template
+    - GIS
+    - Geospatial
+    - Energy
+    - Data Engineering
+    - Visualization
+  github: p-brunet/my-blog
   exclude:
     - _build
     - Thumbs.db
@@ -31,9 +25,10 @@ project:
     - README.md
   toc:
     - file: index.md
-    - file: tags/myst-markdown.md
-    - file: tags/tutorial.md
-    - file: tags/github-pages.md
+    - file: projects/data-engineering.md
+    - file: projects/maps.md
+    - file: projects/modelling.md
+    - file: data-sources.md
     - file: contact.md
     - pattern: posts/*.md
       hidden: true
@@ -41,17 +36,18 @@ site:
   options:
     logo: logo.png
     logo_dark: logo.png
-    favicon: fav.ico
+    logo_url: /
+    favicon: logo.png
     style: custom.css
+    hide_authors: true
     # analytics_google: G-XXXXXXXXXX
     folders: true
   actions:
-    - title: RSS
-      url: https://p-brunet.github.io/my-blog/rss.xml
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/brunet-paul1/?locale=en-US
   template: book-theme
   parts:
     primary_sidebar_footer: ''
     footer: |
-      [GitHub](https://github.com/username) |
-      [LinkedIn](https://www.linkedin.com/in/username) |
-      [Twitter](https://twitter.com/username)
+      [GitHub](https://github.com/p-brunet) |
+      [LinkedIn](https://www.linkedin.com/in/brunet-paul1/?locale=en-US)
