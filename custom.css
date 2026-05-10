@@ -26,14 +26,10 @@ nav.navbar a:hover,
 }
 
 /* ─── Logo sizing ────────────────────────────────────────────────────────── */
-img[alt="logo"],
-img[alt*="logo"],
-a[href="/"] img,
-.logo img,
-nav img:first-of-type {
-  height: 96px !important;
+.myst-home-link-logo img {
+  height: 64px !important;
   width: auto !important;
-  max-width: 96px !important;
+  max-width: 64px !important;
 }
 
 /* ─── Hide downloads dropdown ────────────────────────────────────────────── */

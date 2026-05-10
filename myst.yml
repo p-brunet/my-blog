@@ -25,6 +25,7 @@ project:
     - README.md
   toc:
     - file: index.md
+      hidden: true
     - file: projects/data-engineering.md
     - file: projects/maps.md
     - file: projects/modelling.md
@@ -36,8 +37,7 @@ site:
   options:
     logo: logo.png
     logo_dark: logo.png
-    logo_url: /my-blog/
-    favicon: logo.png
+    favicon: fav.ico
     style: custom.css
     hide_authors: true
     # analytics_google: G-XXXXXXXXXX
