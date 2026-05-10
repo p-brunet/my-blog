@@ -25,11 +25,16 @@ nav.navbar a:hover,
   color: #a8d5b5 !important;
 }
 
-/* ─── Logo sizing ────────────────────────────────────────────────────────── */
+/* ─── Logo sizing & no white box in dark mode ────────────────────────────── */
 .myst-home-link-logo img {
   height: 64px !important;
   width: auto !important;
   max-width: 64px !important;
+}
+
+.myst-home-link-logo {
+  background: transparent !important;
+  border-radius: 0 !important;
 }
 
 /* ─── Hide downloads dropdown ────────────────────────────────────────────── */

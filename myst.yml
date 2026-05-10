@@ -36,7 +36,6 @@ project:
 site:
   options:
     logo: logo.png
-    logo_dark: logo.png
     favicon: fav.ico
     style: custom.css
     hide_authors: true
