@@ -40,6 +40,7 @@ I grew up near Toulouse, in southern France, where solar panels are just part of
 The physics turns out not to be the problem. Residential rooftops on the island receive enough sunlight to produce between **1,060 and 1,200 kWh/kWp per year** — comparable to Toulouse! Despite their completely different winter climates, both cities have a highly comparable annual solar production potential, with both generating roughly 1,150 to 1,300 kWh per kWp annually due to their similar latitudes and Montreal's cold-weather efficiency advantages.
 
 ![Clearing snow off solar panels](images/pv-snow-clearing.jpg)
+
 Clearing panels after a snowfall. *Photo: 1010 Climate Action / Oliver Rudkin, CC BY 2.0*
 
 Hydro-Québec already publishes a [decision-support tool](https://www.hydroquebec.com/residentiel/mieux-consommer/conseils/panneaux-solaires/outil-aide-decision.html) for homeowners weighing solar. It's useful, but it answers for one address at a time: pick a city, enter your consumption and panel count, and it assumes ideal orientation, brand-new equipment and zero shading. It can't say anything about the island as a whole, or where Hydro-Québec's own 3,000 MW 2035 rooftop solar target might actually come from. I wanted that aggregate answer — first for the island, then (maybe?) scale to the province.
@@ -80,11 +81,13 @@ None of this is a modelling breakthrough, and it isn't meant to be. Annual yield
 
 :::{card} Surrogate vs. ground truth
 ![Surrogate validation](https://raw.githubusercontent.com/p-brunet/solar-potential-MTL/main/data/outputs/surrogate_validation.png)
+
 Out-of-sample validation against `pvlib` simulations, coloured by roof slope.
 :::
 
 :::{card} Feature importance
 ![SHAP importance](https://raw.githubusercontent.com/p-brunet/solar-potential-MTL/main/data/outputs/shap_importance.png)
+
 Orientation (`cos_az`, `sin_az`) dominates; sky-view factor (`svf`) carries almost no weight.
 :::
 
@@ -118,11 +121,13 @@ This is not a model flaw. It is the correct answer for Quebec in 2026. A dollar 
 
 :::{card} Payback & NPV distribution
 ![Economics histogram](https://raw.githubusercontent.com/p-brunet/solar-potential-MTL/main/data/outputs/economics_hist.png)
+
 An earlier run of this chart, before the homeowner-only scenarios below — treat the shape as illustrative, not the exact current baseline.
 :::
 
 :::{card} Sensitivity to tariff escalation
 ![Economics sensitivity](https://raw.githubusercontent.com/p-brunet/solar-potential-MTL/main/data/outputs/economics_sensitivity.png)
+
 Median NPV vs. annual tariff escalation rate. HQ's own estimated need (~5%/yr) still isn't enough on its own.
 :::
 
