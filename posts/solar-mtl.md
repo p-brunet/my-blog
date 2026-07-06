@@ -102,11 +102,11 @@ The borough breakdown has some surprises. **Saint-Léonard** comes out on top wi
 
 ## Explore the Map
 
-The full borough-by-borough breakdown is easier to read than to describe — building-level eligibility and yield, rendered as an interactive `Folium` map.
+The full borough-by-borough breakdown is easier to read than to describe — building-level eligibility, capacity and payback, rendered as an interactive `Folium` map. Borough colour is eligible capacity (MW); hovering any borough shows its building count, eligibility rate, generation and average yield — Saint-Léonard's tooltip is pictured below.
 
-<iframe src="https://htmlpreview.github.io/?https://github.com/p-brunet/solar-potential-MTL/blob/main/data/outputs/solar_map.html" width="100%" height="600" style="border:none; border-radius:8px;"></iframe>
+[![Residential rooftop solar potential — Montreal Island, static preview of the interactive map](images/preview-map.jpg)](https://htmlpreview.github.io/?https://github.com/p-brunet/solar-potential-MTL/blob/main/data/outputs/solar_map.html)
 
-If the embed above doesn't load, [open the map directly](https://htmlpreview.github.io/?https://github.com/p-brunet/solar-potential-MTL/blob/main/data/outputs/solar_map.html).
+The live version is a heavy page — every eligible building's polygon is baked in — so it's a link rather than an in-page embed: [**open the interactive map →**](https://htmlpreview.github.io/?https://github.com/p-brunet/solar-potential-MTL/blob/main/data/outputs/solar_map.html)
 
 ## The Uncomfortable Part: Baseline Economics Are Bad
 
