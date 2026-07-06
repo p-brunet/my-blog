@@ -115,7 +115,7 @@ The live version is a heavy page — every eligible building's polygon is baked 
 
 Take the median eligible building: an 8.9 kWp system, installed cost around **\$27,000**. The LogisVert grant covers its capped maximum, **\$6,000**. With net metering at Hydro-Québec's 7.3 c/kWh tariff, year-one savings come to **\$717**. Payback: **23 years**. NPV over the 25-year system life at a 5% discount rate: **-\$10,700**.
 
-This is not a model flaw. It is the correct answer for Quebec in 2026. A dollar recovered in year 23 is worth roughly $0.30 today, and clearing a positive NPV over a 25-year horizon at a 5% discount rate takes a payback of roughly 15 years or better — nowhere close to 23. Hydro-Québec's own stated pre-subsidy baseline (25 to 30 years) is negative NPV *by definition*: a payback at or beyond a system's guaranteed life cannot produce a positive return at any positive discount rate.
+This is not a model flaw. It is the correct answer for Quebec in 2026. A dollar recovered in year 23 is worth roughly \$0.30 today, and clearing a positive NPV over a 25-year horizon at a 5% discount rate takes a payback of roughly 15 years or better — nowhere close to 23. Hydro-Québec's own stated pre-subsidy baseline (25 to 30 years) is negative NPV *by definition*: a payback at or beyond a system's guaranteed life cannot produce a positive return at any positive discount rate.
 
 ::::{grid} 1 1 2 2
 
@@ -153,11 +153,11 @@ Row three adds a faster tariff escalation (5%/yr). It's a clean illustration of 
 
 ### The Grant Cap Creates Two Populations
 
-The LogisVert grant isn't a flat percentage — it's $1,000/kW, capped at 40% of eligible costs **or $6,000 absolute, whichever is lower**. Below roughly 5 kWp, most systems still get the full 40%-of-cost rate. Above that — which includes the median 8.9 kWp building above — every system gets the same flat $6,000 regardless of how much bigger it is, so the grant's impact per kWp shrinks as the system grows. That design choice shows up directly in the NPV distribution as two distinct modes, not one smooth curve. Worth naming as a program design choice, not a bug: LogisVert is proportionally far more generous to smaller systems than to larger ones.
+The LogisVert grant isn't a flat percentage — it's \$1,000/kW, capped at 40% of eligible costs **or \$6,000 absolute, whichever is lower**. Below roughly 5 kWp, most systems still get the full 40%-of-cost rate. Above that — which includes the median 8.9 kWp building above — every system gets the same flat \$6,000 regardless of how much bigger it is, so the grant's impact per kWp shrinks as the system grows. That design choice shows up directly in the NPV distribution as two distinct modes, not one smooth curve. Worth naming as a program design choice, not a bug: LogisVert is proportionally far more generous to smaller systems than to larger ones.
 
 ### The Regulatory Reality Right Now
 
-The 3%/yr tariff escalation used as this analysis's baseline isn't a guess — it's currently law. Government Decree 1239-2025 hard-caps residential tariff increases at 3%/yr through 2028; the Régie de l'énergie has approved 3% for 2026–27 and 2.6% for 2028. Hydro-Québec pushed back hard against the decision, calling it a threat to its Action Plan 2035, and had roughly $450M in claimed costs rejected outright by the Régie.
+The 3%/yr tariff escalation used as this analysis's baseline isn't a guess — it's currently law. Government Decree 1239-2025 hard-caps residential tariff increases at 3%/yr through 2028; the Régie de l'énergie has approved 3% for 2026–27 and 2.6% for 2028. Hydro-Québec pushed back hard against the decision, calling it a threat to its Action Plan 2035, and had roughly \$450M in claimed costs rejected outright by the Régie.
 
 That cap is politically enforced today, but structurally fragile. Hydro-Québec says it needs \$155–185 billion in investment by 2035, and the Régie isn't currently recognizing the full cost base behind that number. Something has to give eventually — either the investment plan shrinks or the tariff cap does. Row three's 5%/yr escalation is a bet on which way that resolves.
 
@@ -167,7 +167,7 @@ Put plainly: **Quebec residential solar is currently a bet on 2035**, not a posi
 
 ### A Precedent for Bold Policy
 
-The scale of intervention needed isn't hypothetical. In July 2026, Hydro-Québec and the Government of Quebec announced a joint program giving **20,000 lower-income households** free energy-efficient renovations — including heat pump installations — backed by more than **$243M CAD** in investment. For eligible families, that means more comfort at home, a lighter electricity bill, and better resilience through both heat waves and cold snaps.
+The scale of intervention needed isn't hypothetical. In July 2026, Hydro-Québec and the Government of Quebec announced a joint program giving **20,000 lower-income households** free energy-efficient renovations — including heat pump installations — backed by more than **\$243M CAD** in investment. For eligible families, that means more comfort at home, a lighter electricity bill, and better resilience through both heat waves and cold snaps.
 
 It's a useful precedent. It shows that when the political will is there, Hydro-Québec and the provincial government can move quickly and generously on household-level energy programs — just on the demand side (efficiency, heat pumps) rather than the supply side (rooftop generation) this analysis is about. The tariff and net-metering structure driving 0% NPV-positive buildings today is a policy choice, not a law of physics, and this program is proof that comparable ambition is politically available when the will exists.
 
