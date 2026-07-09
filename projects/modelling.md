@@ -7,6 +7,17 @@ description: Spatial and energy modelling projects — demand forecasting, netwo
 
 Spatial and energy modelling — demand forecasting, network analysis and machine learning applied to geospatial data.
 
-## [How Much Solar Power Is Montreal Leaving on the Roof?](../posts/solar-mtl.md)
+::::{grid} 1 1 2 2
 
-An XGBoost surrogate model trained on a stratified `pvlib` sample scales rooftop solar yield simulation to 419,000 Montreal buildings, feeding an economic analysis across seven Hydro-Québec policy scenarios — 1,420 MW of technical potential, but 0% financially viable under current tariffs.
+:::{card} How Much Solar Power Is Montreal Leaving on the Roof?
+:link: /posts/solar-mtl
+:header: ![thumbnail](https://raw.githubusercontent.com/p-brunet/solar-potential-MTL/main/data/outputs/policy_scenarios.png)
+July 3, 2026 — LiDAR, building footprints and Hydro-Québec tariffs combined into an XGBoost surrogate model to estimate rooftop solar potential for 419,000 Montreal buildings, and why the economics — not the physics — is holding it back.
+
+<span class="badge badge-python">Python</span>
+<span class="badge badge-rasterio">rasterio</span>
+<span class="badge badge-gis">GIS</span>
+<span class="badge badge-ml">XGBoost</span>
+:::
+
+::::

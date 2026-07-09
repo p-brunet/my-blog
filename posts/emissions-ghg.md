@@ -46,7 +46,11 @@ The applied question: oil and gas operators in Alberta are required to report th
 
 The intent is not to model correlation or prove fraud. It is to demonstrate that a geospatial data pipeline built entirely on public sources can produce actionable signals for regulatory cross-referencing.
 
-![CH₄ satellite overlay on Alberta facilities](https://raw.githubusercontent.com/p-brunet/emissions-ghg/main/outputs/visualizations/ch4_facilities_overlay.png)
+:::{image} https://raw.githubusercontent.com/p-brunet/emissions-ghg/main/outputs/visualizations/ch4_facilities_overlay.png
+:alt: CH₄ satellite overlay on Alberta facilities
+:width: 60%
+:align: center
+:::
 
 ## The Problem
 
@@ -80,7 +84,11 @@ The pipeline follows a **medallion architecture**: three layers of increasing re
 
 The entire pipeline runs in **Docker**: Airflow orchestrates ingestion and scheduling, dbt handles all transformations from silver to gold, and DuckDB is the query engine throughout.
 
-![CH₄ heatmap over Alberta](https://raw.githubusercontent.com/p-brunet/emissions-ghg/main/outputs/visualizations/ch4_heatmap.png)
+:::{image} https://raw.githubusercontent.com/p-brunet/emissions-ghg/main/outputs/visualizations/ch4_heatmap.png
+:alt: CH₄ heatmap over Alberta
+:width: 60%
+:align: center
+:::
 
 ## Spatial Join with H3
 
@@ -101,11 +109,17 @@ After filtering, the pipeline matched **73,908 facility-month pairs** where both
 ::::{grid} 1 1 2 2
 
 :::{card} Anomaly flag distribution
-![Anomaly flags](https://raw.githubusercontent.com/p-brunet/emissions-ghg/main/outputs/visualizations/anomaly_flags.png)
+```{image} https://raw.githubusercontent.com/p-brunet/emissions-ghg/main/outputs/visualizations/anomaly_flags.png
+:alt: Anomaly flags
+:class: chart-card-img
+```
 :::
 
 :::{card} Monthly CH₄ vs. AER volumes
-![Monthly CH₄ vs AER](https://raw.githubusercontent.com/p-brunet/emissions-ghg/main/outputs/visualizations/monthly_ch4_vs_aer.png)
+```{image} https://raw.githubusercontent.com/p-brunet/emissions-ghg/main/outputs/visualizations/monthly_ch4_vs_aer.png
+:alt: Monthly CH₄ vs AER
+:class: chart-card-img
+```
 :::
 
 ::::

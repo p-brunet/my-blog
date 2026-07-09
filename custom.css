@@ -92,3 +92,11 @@ nav.navbar a:hover,
   margin: 0 !important;
   border-radius: 4px;
 }
+
+/* ─── Chart images paired in a grid — forces equal height regardless of native ratio ── */
+.chart-card-img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  display: block;
+}
